@@ -7,7 +7,7 @@
 Name:           python-dtopt
 Summary:        Add options to doctest examples while they are running
 Version:        0.1
-Release:        12%{?dist}
+Release:        13%{?dist}
 License:        MIT
 Group:          System Environment/Libraries
 URL:            http://pypi.python.org/pypi/dtopt/
@@ -98,6 +98,9 @@ popd
 %endif
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.1-13
+- Mass rebuild 2013-12-27
+
 * Tue Feb 19 2013 Ralph Bean <rbean@redhat.com> - 0.1-12
 - Added python3 subpackage.
 
